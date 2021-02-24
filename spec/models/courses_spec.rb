@@ -7,6 +7,6 @@ RSpec.describe Courses, type: :model do
   end
 
   describe 'relationships' do
-    it { should belong_to :student 
+    it { should have_many :course_students }
   end
 end
