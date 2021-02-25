@@ -1,0 +1,10 @@
+<h1>Course List</h1>
+
+<ol>
+  <% @courses.each do |course| %>
+  <li>
+    <h2><%= course.name %></h2>
+  </li>  
+    Time: <%= course.time %>
+  <% end %>
+</ol>

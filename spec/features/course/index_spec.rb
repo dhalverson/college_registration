@@ -9,6 +9,7 @@ RSpec.describe 'As a student', type: :feature do
 
     @courses.each do |course|
       expect(page).to have_content(course.name)
+      expect(page).to have_content(course.time)
     end
   end
 end
