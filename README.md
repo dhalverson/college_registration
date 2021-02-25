@@ -47,6 +47,7 @@ bundle exec rspec
 ```
 
 ## Schema
+![Database Schema](app/assets/images/schema.png?raw=true "Database Schema")
 <img src="app/assets/images/schema.png" width="700">
 
 ## Author
