@@ -47,8 +47,7 @@ bundle exec rspec
 ```
 
 ## Schema
-![Database Schema](app/assets/images/schema.png?raw=true "Database Schema")
-<img src="app/assets/images/schema.png" width="700">
+![Database Schema](https://raw.github.com/dhalverson/college_registration/app/assets/images/schema.png?raw=true "Database Schema")
 
 ## Author
 - Daniel Halverson | [github](https://github.com/dhalverson) | [linkedin](https://www.linkedin.com/in/daniel-halverson/)
