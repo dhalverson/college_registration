@@ -47,7 +47,7 @@ bundle exec rspec
 ```
 
 ## Schema
-![Database Schema](https://raw.github.com/dhalverson/college_registration/app/assets/images/schema.png?raw=true "Database Schema")
+![Database Schema](https://raw.github.com/dhalverson/college_registration/main/app/assets/images/schema.png?raw=true "Database Schema")
 
 ## Author
 - Daniel Halverson | [github](https://github.com/dhalverson) | [linkedin](https://www.linkedin.com/in/daniel-halverson/)
