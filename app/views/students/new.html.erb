@@ -1,0 +1,13 @@
+<%=form_with model: @student do |f| %>
+  <div id="name">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div id="email">
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+  </div>
+  <div id="submit">
+    <%= f.submit 'Create User' %>
+  </div>
+<% end %>
