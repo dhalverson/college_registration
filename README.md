@@ -1,24 +1,54 @@
-# README
+# College Registration
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+College Registration is a web application in which users can:
+- View available courses
+- Register for courses
+- View their registrations
+- Cancel their registrations
 
-Things you may want to cover:
+## Learning goals:
+- Implement a basic CRUD design structure
+- Implement a working application with limited time
 
-* Ruby version
+## Readme Content
+- [Getting Started](#getting-started)
+- [Running the Tests](#tests)
+- [Database Schema](#schema)
+- [Author](#author)
+- 
+## Getting Started
+```
+git clone git@github.com:dhalverson/college_registration.git
+cd college_registration
+```
 
-* System dependencies
+### Prereqisites
+- Ruby 2.5.3
+- Rails 6.1.2.1
 
-* Configuration
+### Setup/Installation
+```
+bundle install
+rails db:{drop,create,migrate,seed}
+```
 
-* Database creation
+### Local Server
+- Navigate to the directory college_registration is located
+```
+rails s
+```
+- App will be available locally at http://localhost:3000/
 
-* Database initialization
+## Tests
+- Tests are setup using RSpec
+- Run tests using:
+```
+bundle exec rspec
+```
 
-* How to run the test suite
+## Schema
+[![Screen-Shot-2021-02-25-at-10-16-21-AM.png](https://i.postimg.cc/9fjBM6Cx/Screen-Shot-2021-02-25-at-10-16-21-AM.png)](https://postimg.cc/yDvRprJ9)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Author
+- Daniel Halverson | [github](https://github.com/dhalverson) | [linkedin](https://www.linkedin.com/in/daniel-halverson/)
