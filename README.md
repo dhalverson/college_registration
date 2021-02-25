@@ -1,24 +1,46 @@
-# README
+# College Registration
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+College Registration is a web application in which users can:
+- View available courses
+- Register for courses
+- View their registrations
+- Cancel their registrations
 
-Things you may want to cover:
+## Learning goals:
+- Implement a basic CRUD design structure
+- Implement a working application with limited time
 
-* Ruby version
+## Readme Content
 
-* System dependencies
+## Getting Started
+```
+git clone git@github.com:dhalverson/college_registration.git
+cd college_registration
+```
 
-* Configuration
+### Prereqisites
+- Ruby 2.5.3
+- Rails 6.1.2.1
 
-* Database creation
+### Setup/Installation
+```
+bundle install
+rails db:{drop,create,migrate,seed}
+```
 
-* Database initialization
+### Local Server
+- Navigate to the directory college_registration is located
+```
+rails s
+```
+- App will be available locally at http://localhost:3000/
 
-* How to run the test suite
+## Tests
+- Tests are setup using RSpec
+- Run tests using:
+```
+bundle exec rspec
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Schema
+<img src="app/assets/images/db_schema
