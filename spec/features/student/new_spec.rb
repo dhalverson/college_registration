@@ -20,7 +20,7 @@ RSpec.describe 'When a user visits the root path' do
     password = 'test123'
 
     click_button('Create User')
-    expect(current_path).to eq(student_show_path)
+    expect(current_path).to eq(root_path)
     
     expect(page).to have_content("Welcome, #{username}!")
   end
